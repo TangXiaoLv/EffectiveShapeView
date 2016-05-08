@@ -1,8 +1,9 @@
 ##EffectiveShapeView
-------
+---
 A fast，flexible，lightweight(under 400 code line) ImageView that supports rounded corners，circles，polygon.This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView).
-![Alt text](./1878785256.jpg)
-![Alt text](./1969793156.jpg)
+
+ <img src="https://raw.githubusercontent.com/TangXiaoLv/EffectiveShapeView/master/png/first.jpg" width = "362" height = "640" alt="图片名称"  />
+ <img src="https://raw.githubusercontent.com/TangXiaoLv/EffectiveShapeView/master/png/second.jpg" width = "362" height = "640" alt="图片名称" />
 
 Also has support for: 
 - anti-aliased 
@@ -18,7 +19,7 @@ Also has support for:
 
 ###Usage
 ------
-><tangxiaolv.com.library.EffectiveShapeView
+> `<tangxiaolv.com.library.EffectiveShapeView
         android:id="@+id/shape"
         android:layout_width="72dp"
         android:layout_height="72dp"
@@ -29,7 +30,8 @@ Also has support for:
         android:scaleType="centerCrop"
         android:src="@drawable/android"
         app:shape="polygon"
-        app:sides="6"/>
+        app:sides="6"/>`
+        
 ###Changelog
 ------
 **1.0.0**
@@ -37,7 +39,7 @@ Also has support for:
 
 ###License
 ------
->Copyright 2016 - 2017 tangxiaolv
+> Copyright 2016 - 2017 tangxiaolv
 	  Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
