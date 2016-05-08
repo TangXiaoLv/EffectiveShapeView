@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EffectiveShapeView">
+        <attr name="shape" format="integer">
+            <enum name="circle" value="1"/>
+            <enum name="rectangle" value="2"/>
+            <enum name="round_rectangle" value="3"/>
+            <enum name="square" value="4"/>
+            <enum name="polygon" value="5"/>
+        </attr>
+        <attr name="decorations_direction" format="integer">
+            <enum name="left_top" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="right_top" value="3"/>
+            <enum name="right_bottom" value="4"/>
+        </attr>
+
+        <attr name="decorations_src" format="reference"/>
+        <attr name="radius_x" format="float"/>
+        <attr name="radius_y" format="float"/>
+        <attr name="sides" format="integer"/>
+    </declare-styleable>
+</resources>
