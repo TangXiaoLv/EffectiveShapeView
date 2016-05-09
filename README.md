@@ -1,5 +1,5 @@
-##EffectiveShapeView
----
+EffectiveShapeView
+====
 A fast，flexible，lightweight(under 400 code line) ImageView that supports rounded corners，circles，polygon.This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView).
 
  <img src="https://raw.githubusercontent.com/TangXiaoLv/EffectiveShapeView/master/png/first.jpg" width = "362" height = "640" alt="图片名称"  />
@@ -11,15 +11,10 @@ Also has support for:
 - Hardware acceleration
 - Decorations (with Direction)
 
-###Gradle
-------
->dependencies {
-    ...
-}
-
-###Usage
-------
-> `<tangxiaolv.com.library.EffectiveShapeView
+Usage
+---
+```xml
+<tangxiaolv.com.library.EffectiveShapeView
         android:id="@+id/shape"
         android:layout_width="72dp"
         android:layout_height="72dp"
@@ -30,24 +25,27 @@ Also has support for:
         android:scaleType="centerCrop"
         android:src="@drawable/android"
         app:shape="polygon"
-        app:sides="6"/>`
+        app:sides="6"/>
+```
         
-###Changelog
-------
+Changelog
+---
 **1.0.0**
 - Initial release 
 
-###License
-------
-> Copyright 2016 - 2017 tangxiaolv
-	  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
- 
-      http://www.apache.org/licenses/LICENSE-2.0
- 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
+License
+---
+
+    Copyright 2016 - 2017 TangXiaoLv
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
