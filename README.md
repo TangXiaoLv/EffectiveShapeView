@@ -1,6 +1,6 @@
 EffectiveShapeView
 ====
-A fast，flexible，powerful ImageView that supports rounded corners，circles，polygon.This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView)， but more lightweight(under 400 line code).
+A fast，flexible，powerful ImageView that supports rounded corners，circles，polygon.Used by shader which is fastest model of draw. This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView)， but more lightweight(under 400 line code).
 
  <img src="https://raw.githubusercontent.com/TangXiaoLv/EffectiveShapeView/master/png/first.jpg" width = "362" height = "640" alt="图片名称"  />
  <img src="https://raw.githubusercontent.com/TangXiaoLv/EffectiveShapeView/master/png/second.jpg" width = "362" height = "640" alt="图片名称" />
