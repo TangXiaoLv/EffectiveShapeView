@@ -1,7 +1,6 @@
 EffectiveShapeView
 ====
-<a href='https://bintray.com/tangxiaolv/maven/effective-shape-view/view?source=watch' alt='Get automatic notifications about new "effective-shape-view" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png' width = "60" height="60">
-</a>
+[ ![Download](https://api.bintray.com/packages/tangxiaolv/maven/effective-shape-view/images/download.svg) ](https://bintray.com/tangxiaolv/maven/effective-shape-view/_latestVersion)
 
 A fast，flexible，powerful ImageView that supports rounded corners，circles，polygon.Used by shader which is fastest model of draw. This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView)， but more lightweight(under 400 line code).
 
