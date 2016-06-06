@@ -11,6 +11,14 @@ Also has support for:
 - Hardware acceleration
 - Decorations (with Direction)
 
+Gradle
+----
+```
+dependencies {
+    compile 'com.library.tangxiaolv:effectiveshapeview:1.0.0'
+}
+```
+
 Usage
 ---
 ```xml
