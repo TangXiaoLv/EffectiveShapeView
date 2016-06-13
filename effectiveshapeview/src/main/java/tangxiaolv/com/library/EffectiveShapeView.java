@@ -34,7 +34,6 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.net.Uri;
-import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
@@ -299,7 +298,7 @@ public class EffectiveShapeView extends ImageView {
     }
 
     @Override
-    public void setImageResource(@DrawableRes int resId) {
+    public void setImageResource(int resId) {
         if (mResource != resId) {
             mResource = resId;
             setImageDrawable(resolveResource());
@@ -372,6 +371,7 @@ public class EffectiveShapeView extends ImageView {
                 bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
             }
             Canvas canvas = new Canvas(bitmap);
+            drawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
             drawable.draw(canvas);
         } catch (Exception e) {
             e.printStackTrace();
