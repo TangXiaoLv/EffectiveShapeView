@@ -16,7 +16,7 @@ Gradle
 ----
 ```
 dependencies {
-    compile 'com.library.tangxiaolv:effectiveshapeview:1.0.0'
+    compile 'com.library.tangxiaolv:effectiveshapeview:1.0.1'
 }
 ```
 
@@ -39,7 +39,10 @@ Usage
         
 Changelog
 ---
-**1.0.0**
+**v1.0.1**
+- Fix set colorDrawable Invalid
+
+**v1.0.0**
 - Initial release 
 
 License
